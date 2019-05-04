@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Compiled Files
+client/dist/bundle.js
+
+# other
+.DS_Store
