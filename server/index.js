@@ -5,12 +5,12 @@ const path = require('path');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(path.join(__dirname + '/../client/dist')));
 
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/../client/dist/index.html'))
+    res.sendFile(path.join(__dirname, '/../client/dist/index.html'))
   })
 
-let port = process.env. PORT || 3000;
+let port = process.env.PORT || 3000;
 app.listen(port, ()=> console.log(`Listening on port: ${port}`));
