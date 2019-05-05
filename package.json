@@ -1,5 +1,5 @@
 {
-  "name": "hazporpoise",
+  "name": "boilerplate_reactapps",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senwLu/hazPorpoise.git"
+    "url": "git+https://github.com/senwLu/boilerplate_ReactApps.git"
   },
   "author": "senwLu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/senwLu/hazPorpoise/issues"
+    "url": "https://github.com/senwLu/boilerplate_ReactApps/issues"
   },
-  "homepage": "https://github.com/senwLu/hazPorpoise#readme",
+  "homepage": "https://github.com/senwLu/boilerplate_ReactApps#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
